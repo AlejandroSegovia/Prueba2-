@@ -45,7 +45,8 @@ public class AccesoArchivo {
 			return true;
 		} catch (IOException e) {
 			VistaGeneral.mostrarError("Error al escribir en el archivo: " + e.getMessage());
-			return false;
+			return true;
+			
 		}
 	}
 
